@@ -1,0 +1,246 @@
+@media all and (max-width: 1590px){
+    body p{
+        font-size: 15px;
+    }
+    
+}
+@media all and (max-width: 1536px){
+    body p{
+        font-size: 14px;
+    }
+    #pqdascores img{
+        width: 80%;
+    }
+    #pqdascores p{
+        font-size: 15px;
+        margin-top: 40px;
+    }
+    #divlogo2 p{
+        width: 55%;
+    }
+    
+}
+@media all and (max-width: 1340px){
+    body p{
+        font-size: 13px;
+    }
+    
+}
+@media all and (max-width: 1160px){
+    .tres{
+        padding: 0% 3% 0% 3%;
+    }
+    #operarios{
+        width: 85%;
+    }
+    #direita li{
+        font-size: 11px;
+    }
+    #tresrodape{
+        padding: 0% 0.5% 1.5% 0.5%;
+    }
+    #direita ul{
+        padding: 0;
+    }
+}
+@media all and (max-width: 1100px){
+    #formal{
+        height: 260px;
+    }
+    #cartaz{
+        height: 260px;
+    }
+    
+}
+@media all and (max-width: 1072px){
+    
+    #palheta h2{
+        font-size: 20px;
+    }
+    #palheta input{
+        width: 60px;
+        height: 40px;
+    }
+    #divlogo p{
+        font-size: 18px;
+    }
+    .elementosdalista a{
+        font-size: 16px;
+    }
+    #divtarsila h1{
+        padding-top: 40px;
+    }
+}
+@media all and (max-width: 1030px){
+    #foto{
+        height: 380px;
+    }
+    #pesquisa{
+        margin-top: 20px;
+    }
+}
+
+
+
+
+
+
+
+@media all and (max-width: 968px){
+    #divtarsila{
+        border-left: solid var(--text-color5) 50px;
+    }
+    #sobretarsila h2{
+        text-align: center;
+        padding-left: 0;
+        box-sizing: border-box;
+        
+    }
+    #sobretarsila{
+        padding-right: 20px;
+        box-sizing: border-box;
+        border-left: solid var(--text-color3) 50px;
+    }
+    .elementosdalista{
+        visibility: hidden;
+        padding: 0;
+        width: 0px;
+        height: 0px;
+    }
+    #lista{
+        visibility: hidden;
+        margin: 0;
+        padding: 0;
+        width: 0px;
+        height: 0px;
+    }
+    #divlogo{
+        border-left: solid var(--text-color5) 50px;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #divlogo a{
+        width: 30%;
+        transform: translateX(-25px); /*Comando brabo pra mover o a do header 50 pixels pra esquerda, que é metade do tamando da borda (faço isso pra centralizar essa tag a certinho)*/
+    }
+    .icones{
+        margin: 0;
+    }
+    .tres{
+        display: block;
+        width: 100%;
+    }
+    #analise{
+        box-sizing: border-box;
+        border-left: solid 50px var(--text-color4);
+    }
+    
+    #formal{
+        width: 80%;
+        height: 250px;
+    }
+    #cartaz{
+        height: 300px;
+        width: 60%;
+    }
+    #analise h2{
+        margin-right: 0;
+    }
+    #analise p{
+        padding-right: 25px;
+    }
+    .tresimg{
+        width: 70%;
+        height: 290px;
+    }
+    #pqdascores{
+        box-sizing: border-box;
+        border-left: solid 50px var(--text-color6);
+    }
+    #palheta{
+        display: block;
+        width: 100%;
+    }
+    #esquerda{
+        display: block;
+        width: 100%;
+        border-bottom: solid #4B89BF;
+        padding-bottom: 10px;
+    }
+    #esquerda p{
+        padding-left: 10px;
+        padding-right: 10px;
+        
+    }
+    #meio{
+        display: block;
+        width: 100%;
+        border-bottom: solid #4B89BF;
+    }
+    #divlogo2 a{
+        margin: 0;
+    }
+    #divlogo2 p{
+        width: fit-content;
+    }
+    #direita{
+        display: block;
+        width: 100%;
+        border-bottom: solid #4B89BF;
+        
+    }
+    #direita li{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .tresrodape{
+        padding: 0;
+    }
+}
+@media all and (max-width: 772px){
+    #divlogo p{
+        visibility: hidden;
+        width: 0px;
+        height: 0px;
+        margin: 0;
+        padding: 0;
+    }
+    #divlogo a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .tresimg{
+        width: 80%;
+        height: 260px;
+    }
+    
+}
+@media all and (max-width: 420px){
+    #palheta h2{
+        font-size: 18px;
+    }
+    #palheta input{
+        width: 50px;
+        height: 30px;
+    }
+    #pqdascores img{
+        visibility: hidden;
+        width: 0px;
+        height: 0px;
+    }
+    #pqdascores p{
+        padding: 0% 10% 0% 10%;
+    }
+    #divlogo2 p{
+        font-size: 25px;
+        margin-top: 40px;
+        margin-right: 10px;
+    }
+    #divlogo2 img{
+        padding-left: 25px;
+    }
+}
